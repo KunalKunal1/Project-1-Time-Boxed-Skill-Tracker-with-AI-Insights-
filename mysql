@@ -1,0 +1,10 @@
+CREATE DATABASE skill_tracker;
+USE skill_tracker;
+
+CREATE TABLE sessions (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    skill VARCHAR(100),
+    duration INT,
+    notes TEXT,
+    timestamp DATETIME
+);
